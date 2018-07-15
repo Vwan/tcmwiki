@@ -139,6 +139,8 @@ Error message and password prompt
 
 <li>$:/config/Manager/Tag</li>
 
+<li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/close-all</li>
+
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/storyview</li>
 
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/theme</li>
@@ -161,6 +163,8 @@ Error message and password prompt
 
 <li>$:/plugins/tiddlywiki/cecily</li>
 
+<li>$:/plugins/tiddlywiki/codemirror-keymap-sublime-text</li>
+
 <li>$:/plugins/tiddlywiki/dynaview</li>
 
 <li>$:/plugins/tiddlywiki/markdown</li>
@@ -182,6 +186,8 @@ Error message and password prompt
 <li>$:/state/add-plugin-info/$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.17/index.html/$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.17/index.html/$:/plugins/tiddlywiki/cecily</li>
 
 <li>$:/state/add-plugin-info/$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.17/index.html/$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.17/index.html/$:/plugins/tiddlywiki/classictools</li>
+
+<li>$:/state/add-plugin-info/$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.17/index.html/$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.17/index.html/$:/plugins/tiddlywiki/codemirror-keymap-sublime-text</li>
 
 <li>$:/state/add-plugin-info/$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.17/index.html/$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.17/index.html/$:/plugins/tiddlywiki/dynaview</li>
 
@@ -224,6 +230,8 @@ Error message and password prompt
 <li>$:/state/toc/TableOfContents-少阳病-972943814</li>
 
 <li>$:/state/toc/TableOfContents-本能系统论-972943814</li>
+
+<li>$:/state/toc/TableOfContents-症状-972943814</li>
 
 <li>$:/state/toc/TableOfContents-穴位-972943814</li>
 
@@ -455,7 +463,9 @@ Error message and password prompt
 
 <li>$:/view</li>
 
-<li>Tiddlywiki Cheat Sheet</li>
+<li>Draft of '中药'</li>
+
+<li>Tiddlywiki References</li>
 
 <li>TOC</li>
 
@@ -467,13 +477,19 @@ Error message and password prompt
 
 <li>伤寒论方剂</li>
 
+<li>便秘</li>
+
 <li>升降出入系统</li>
+
+<li>呕而发热之柴胡证vs结胸vs心下痞</li>
 
 <li>呕而发热者，小柴胡汤主之</li>
 
 <li>咕噜</li>
 
 <li>头眩</li>
+
+<li>小儿推拿</li>
 
 <li>小柴胡汤</li>
 
@@ -483,9 +499,15 @@ Error message and password prompt
 
 <li>少阳病纲领</li>
 
+<li>心下痞</li>
+
 <li>感冒 发热 恶风</li>
 
 <li>本能系统论</li>
+
+<li>柴胡</li>
+
+<li>柴胡汤证被下而柴胡证仍在</li>
 
 <li>栝娄</li>
 
@@ -493,13 +515,19 @@ Error message and password prompt
 
 <li>牡蛎</li>
 
+<li>症状</li>
+
 <li>穴位</li>
 
 <li>结气</li>
 
+<li>结胸</li>
+
 <li>芍药</li>
 
 <li>解肌法</li>
+
+<li>辩证</li>
 
 <li>针灸</li>
 
@@ -525,6 +553,9 @@ Error message and password prompt
 </div>
 <div created="20180715044114015" modified="20180715044124293" title="$:/config/Manager/Tag">
 <pre></pre>
+</div>
+<div created="20180715080719703" modified="20180715080719703" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/close-all">
+<pre>show</pre>
 </div>
 <div created="20180715032437874" modified="20180715032437874" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/storyview">
 <pre>show</pre>
@@ -9135,6 +9166,33 @@ Error message and password prompt
     }
 }</pre>
 </div>
+<div author="JeremyRuston" dependents="" description="CodeMirror Keymap: Sublime Text" list="readme" plugin-type="plugin" title="$:/plugins/tiddlywiki/codemirror-keymap-sublime-text" type="application/json" version="5.1.17">
+<pre>{
+    &quot;tiddlers&quot;: {
+        &quot;$:/config/codemirror/extraKeysTW&quot;: {
+            &quot;title&quot;: &quot;$:/config/codemirror/extraKeysTW&quot;,
+            &quot;extend&quot;: &quot;extraKeys&quot;,
+            &quot;type&quot;: &quot;json&quot;,
+            &quot;text&quot;: &quot;{\n\t\&quot;Ctrl-M\&quot;: \&quot;\&quot;,\n\t\&quot;Alt-M\&quot;: \&quot;goToBracket\&quot;,\n\t\&quot;Ctrl-Enter\&quot;: \&quot;\&quot;,\n\t\&quot;Shift-Enter\&quot;: \&quot;insertLineAfter\&quot;,\n\t\&quot;Esc\&quot;: \&quot;\&quot;,\n\t\&quot;Ctrl-Esc\&quot;: \&quot;singleSelectionTop\&quot;,\n\t\&quot;Ctrl-L\&quot;: \&quot;\&quot;,\n\t\&quot;Shift-Ctrl-L\&quot;: \&quot;\&quot;,\n\t\&quot;Alt-L\&quot;: \&quot;selectLine\&quot;,\n\t\&quot;Shift-Alt-L\&quot;: \&quot;splitSelectionByLine\&quot;,\n\t\&quot;Ctrl-T\&quot;: \&quot;\&quot;,\n\t\&quot;Alt-T\&quot;: \&quot;transposeChars\&quot;,\n\t\&quot;Ctrl-K Ctrl-U\&quot;: \&quot;\&quot;,\n\t\&quot;Ctrl-K Ctrl-L\&quot;: \&quot;\&quot;,\n\t\&quot;Ctrl-K Ctrl-W\&quot;: \&quot;\&quot;,\n\t\&quot;Ctrl-K Alt-U\&quot;: \&quot;upcaseAtCursor\&quot;,\n\t\&quot;Ctrl-K Alt-L\&quot;: \&quot;downcaseAtCursor\&quot;,\n\t\&quot;Ctrl-K Alt-D\&quot;: \&quot;deleteToSublimeMark\&quot;\n}\n&quot;
+        },
+        &quot;$:/plugins/tiddlywiki/codemirror/keymaps/sublime&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/tiddlywiki/codemirror/keymaps/sublime&quot;,
+            &quot;module-type&quot;: &quot;codemirror-keymap&quot;,
+            &quot;text&quot;: &quot;sublime\n&quot;
+        },
+        &quot;$:/plugins/tiddlywiki/codemirror/keymap/sublime.js&quot;: {
+            &quot;text&quot;: &quot;// CodeMirror, copyright (c) by Marijn Haverbeke and others\n// Distributed under an MIT license: http://codemirror.net/LICENSE\n!function(e){\&quot;object\&quot;==typeof exports&amp;&amp;\&quot;object\&quot;==typeof module?e(require(\&quot;../lib/codemirror\&quot;),require(\&quot;../addon/search/searchcursor\&quot;),require(\&quot;../addon/edit/matchbrackets\&quot;)):\&quot;function\&quot;==typeof define&amp;&amp;define.amd?define([\&quot;../lib/codemirror\&quot;,\&quot;../addon/search/searchcursor\&quot;,\&quot;../addon/edit/matchbrackets\&quot;],e):e(CodeMirror)}(function(e){\&quot;use strict\&quot;;var t=e.commands,n=e.Pos;function r(t,r){t.extendSelectionsBy(function(o){return t.display.shift||t.doc.extend||o.empty()?function(t,r,o){if(o&lt;0&amp;&amp;0==r.ch)return t.clipPos(n(r.line-1));var i=t.getLine(r.line);if(o&gt;0&amp;&amp;r.ch&gt;=i.length)return t.clipPos(n(r.line+1,0));for(var l,a=\&quot;start\&quot;,s=r.ch,c=o&lt;0?0:i.length,f=0;s!=c;s+=o,f++){var u=i.charAt(o&lt;0?s-1:s),d=\&quot;_\&quot;!=u&amp;&amp;e.isWordChar(u)?\&quot;w\&quot;:\&quot;o\&quot;;if(\&quot;w\&quot;==d&amp;&amp;u.toUpperCase()==u&amp;&amp;(d=\&quot;W\&quot;),\&quot;start\&quot;==a)\&quot;o\&quot;!=d&amp;&amp;(a=\&quot;in\&quot;,l=d);else if(\&quot;in\&quot;==a&amp;&amp;l!=d){if(\&quot;w\&quot;==l&amp;&amp;\&quot;W\&quot;==d&amp;&amp;o&lt;0&amp;&amp;s--,\&quot;W\&quot;==l&amp;&amp;\&quot;w\&quot;==d&amp;&amp;o&gt;0){l=\&quot;w\&quot;;continue}break}}return n(r.line,s)}(t.doc,o.head,r):r&lt;0?o.from():o.to()})}function o(t,r){if(t.isReadOnly())return e.Pass;t.operation(function(){for(var e=t.listSelections().length,o=[],i=-1,l=0;l&lt;e;l++){var a=t.listSelections()[l].head;if(!(a.line&lt;=i)){var s=n(a.line+(r?0:1),0);t.replaceRange(\&quot;\\n\&quot;,s,null,\&quot;+insertLine\&quot;),t.indentLine(s.line,null,!0),o.push({head:s,anchor:s}),i=a.line+1}}t.setSelections(o)}),t.execCommand(\&quot;indentAuto\&quot;)}function i(t,r){for(var o=r.ch,i=o,l=t.getLine(r.line);o&amp;&amp;e.isWordChar(l.charAt(o-1));)--o;for(;i&lt;l.length&amp;&amp;e.isWordChar(l.charAt(i));)++i;return{from:n(r.line,o),to:n(r.line,i),word:l.slice(o,i)}}function l(e,t){for(var n=e.listSelections(),r=[],o=0;o&lt;n.length;o++){var i=n[o],l=e.findPosV(i.anchor,t,\&quot;line\&quot;,i.anchor.goalColumn),a=e.findPosV(i.head,t,\&quot;line\&quot;,i.head.goalColumn);l.goalColumn=null!=i.anchor.goalColumn?i.anchor.goalColumn:e.cursorCoords(i.anchor,\&quot;div\&quot;).left,a.goalColumn=null!=i.head.goalColumn?i.head.goalColumn:e.cursorCoords(i.head,\&quot;div\&quot;).left;var s={anchor:l,head:a};r.push(i),r.push(s)}e.setSelections(r)}t.goSubwordLeft=function(e){r(e,-1)},t.goSubwordRight=function(e){r(e,1)},t.scrollLineUp=function(e){var t=e.getScrollInfo();if(!e.somethingSelected()){var n=e.lineAtHeight(t.top+t.clientHeight,\&quot;local\&quot;);e.getCursor().line&gt;=n&amp;&amp;e.execCommand(\&quot;goLineUp\&quot;)}e.scrollTo(null,t.top-e.defaultTextHeight())},t.scrollLineDown=function(e){var t=e.getScrollInfo();if(!e.somethingSelected()){var n=e.lineAtHeight(t.top,\&quot;local\&quot;)+1;e.getCursor().line&lt;=n&amp;&amp;e.execCommand(\&quot;goLineDown\&quot;)}e.scrollTo(null,t.top+e.defaultTextHeight())},t.splitSelectionByLine=function(e){for(var t=e.listSelections(),r=[],o=0;o&lt;t.length;o++)for(var i=t[o].from(),l=t[o].to(),a=i.line;a&lt;=l.line;++a)l.line&gt;i.line&amp;&amp;a==l.line&amp;&amp;0==l.ch||r.push({anchor:a==i.line?i:n(a,0),head:a==l.line?l:n(a)});e.setSelections(r,0)},t.singleSelectionTop=function(e){var t=e.listSelections()[0];e.setSelection(t.anchor,t.head,{scroll:!1})},t.selectLine=function(e){for(var t=e.listSelections(),r=[],o=0;o&lt;t.length;o++){var i=t[o];r.push({anchor:n(i.from().line,0),head:n(i.to().line+1,0)})}e.setSelections(r)},t.insertLineAfter=function(e){return o(e,!1)},t.insertLineBefore=function(e){return o(e,!0)},t.selectNextOccurrence=function(t){var r=t.getCursor(\&quot;from\&quot;),o=t.getCursor(\&quot;to\&quot;),l=t.state.sublimeFindFullWord==t.doc.sel;if(0==e.cmpPos(r,o)){var a=i(t,r);if(!a.word)return;t.setSelection(a.from,a.to),l=!0}else{var s=t.getRange(r,o),c=l?new RegExp(\&quot;\\\\b\&quot;+s+\&quot;\\\\b\&quot;):s,f=t.getSearchCursor(c,o),u=f.findNext();if(u||(u=(f=t.getSearchCursor(c,n(t.firstLine(),0))).findNext()),!u||function(e,t,n){for(var r=0;r&lt;e.length;r++)if(e[r].from()==t&amp;&amp;e[r].to()==n)return!0;return!1}(t.listSelections(),f.from(),f.to()))return e.Pass;t.addSelection(f.from(),f.to())}l&amp;&amp;(t.state.sublimeFindFullWord=t.doc.sel)},t.addCursorToPrevLine=function(e){l(e,-1)},t.addCursorToNextLine=function(e){l(e,1)};var a=\&quot;(){}[]\&quot;;function s(t){for(var r=t.listSelections(),o=[],i=0;i&lt;r.length;i++){var l=r[i],s=l.head,c=t.scanForBracket(s,-1);if(!c)return!1;for(;;){var f=t.scanForBracket(s,1);if(!f)return!1;if(f.ch==a.charAt(a.indexOf(c.ch)+1)){var u=n(c.pos.line,c.pos.ch+1);if(0!=e.cmpPos(u,l.from())||0!=e.cmpPos(f.pos,l.to())){o.push({anchor:u,head:f.pos});break}if(!(c=t.scanForBracket(c.pos,-1)))return!1}s=n(f.pos.line,f.pos.ch+1)}}return t.setSelections(o),!0}function c(t,r){if(t.isReadOnly())return e.Pass;for(var o,i=t.listSelections(),l=[],a=0;a&lt;i.length;a++){var s=i[a];if(!s.empty()){for(var c=s.from().line,f=s.to().line;a&lt;i.length-1&amp;&amp;i[a+1].from().line==f;)f=i[++a].to().line;i[a].to().ch||f--,l.push(c,f)}}l.length?o=!0:l.push(t.firstLine(),t.lastLine()),t.operation(function(){for(var e=[],i=0;i&lt;l.length;i+=2){var a=l[i],s=l[i+1],c=n(a,0),f=n(s),u=t.getRange(c,f,!1);r?u.sort():u.sort(function(e,t){var n=e.toUpperCase(),r=t.toUpperCase();return n!=r&amp;&amp;(e=n,t=r),e&lt;t?-1:e==t?0:1}),t.replaceRange(u,c,f),o&amp;&amp;e.push({anchor:c,head:n(s+1,0)})}o&amp;&amp;t.setSelections(e,0)})}function f(t,n){t.operation(function(){for(var r=t.listSelections(),o=[],l=[],a=0;a&lt;r.length;a++){(c=r[a]).empty()?(o.push(a),l.push(\&quot;\&quot;)):l.push(n(t.getRange(c.from(),c.to())))}t.replaceSelections(l,\&quot;around\&quot;,\&quot;case\&quot;);var s;for(a=o.length-1;a&gt;=0;a--){var c=r[o[a]];if(!(s&amp;&amp;e.cmpPos(c.head,s)&gt;0)){var f=i(t,c.head);s=f.from,t.replaceRange(n(f.word),f.from,f.to)}}})}function u(t){var n=t.getCursor(\&quot;from\&quot;),r=t.getCursor(\&quot;to\&quot;);if(0==e.cmpPos(n,r)){var o=i(t,n);if(!o.word)return;n=o.from,r=o.to}return{from:n,to:r,query:t.getRange(n,r),word:o}}function d(e,t){var r=u(e);if(r){var o=r.query,i=e.getSearchCursor(o,t?r.to:r.from);(t?i.findNext():i.findPrevious())?e.setSelection(i.from(),i.to()):(i=e.getSearchCursor(o,t?n(e.firstLine(),0):e.clipPos(n(e.lastLine()))),(t?i.findNext():i.findPrevious())?e.setSelection(i.from(),i.to()):r.word&amp;&amp;e.setSelection(r.from,r.to))}}t.selectScope=function(e){s(e)||e.execCommand(\&quot;selectAll\&quot;)},t.selectBetweenBrackets=function(t){if(!s(t))return e.Pass},t.goToBracket=function(t){t.extendSelectionsBy(function(r){var o=t.scanForBracket(r.head,1);if(o&amp;&amp;0!=e.cmpPos(o.pos,r.head))return o.pos;var i=t.scanForBracket(r.head,-1);return i&amp;&amp;n(i.pos.line,i.pos.ch+1)||r.head})},t.swapLineUp=function(t){if(t.isReadOnly())return e.Pass;for(var r=t.listSelections(),o=[],i=t.firstLine()-1,l=[],a=0;a&lt;r.length;a++){var s=r[a],c=s.from().line-1,f=s.to().line;l.push({anchor:n(s.anchor.line-1,s.anchor.ch),head:n(s.head.line-1,s.head.ch)}),0!=s.to().ch||s.empty()||--f,c&gt;i?o.push(c,f):o.length&amp;&amp;(o[o.length-1]=f),i=f}t.operation(function(){for(var e=0;e&lt;o.length;e+=2){var r=o[e],i=o[e+1],a=t.getLine(r);t.replaceRange(\&quot;\&quot;,n(r,0),n(r+1,0),\&quot;+swapLine\&quot;),i&gt;t.lastLine()?t.replaceRange(\&quot;\\n\&quot;+a,n(t.lastLine()),null,\&quot;+swapLine\&quot;):t.replaceRange(a+\&quot;\\n\&quot;,n(i,0),null,\&quot;+swapLine\&quot;)}t.setSelections(l),t.scrollIntoView()})},t.swapLineDown=function(t){if(t.isReadOnly())return e.Pass;for(var r=t.listSelections(),o=[],i=t.lastLine()+1,l=r.length-1;l&gt;=0;l--){var a=r[l],s=a.to().line+1,c=a.from().line;0!=a.to().ch||a.empty()||s--,s&lt;i?o.push(s,c):o.length&amp;&amp;(o[o.length-1]=c),i=c}t.operation(function(){for(var e=o.length-2;e&gt;=0;e-=2){var r=o[e],i=o[e+1],l=t.getLine(r);r==t.lastLine()?t.replaceRange(\&quot;\&quot;,n(r-1),n(r),\&quot;+swapLine\&quot;):t.replaceRange(\&quot;\&quot;,n(r,0),n(r+1,0),\&quot;+swapLine\&quot;),t.replaceRange(l+\&quot;\\n\&quot;,n(i,0),null,\&quot;+swapLine\&quot;)}t.scrollIntoView()})},t.toggleCommentIndented=function(e){e.toggleComment({indent:!0})},t.joinLines=function(e){for(var t=e.listSelections(),r=[],o=0;o&lt;t.length;o++){for(var i=t[o],l=i.from(),a=l.line,s=i.to().line;o&lt;t.length-1&amp;&amp;t[o+1].from().line==s;)s=t[++o].to().line;r.push({start:a,end:s,anchor:!i.empty()&amp;&amp;l})}e.operation(function(){for(var t=0,o=[],i=0;i&lt;r.length;i++){for(var l,a=r[i],s=a.anchor&amp;&amp;n(a.anchor.line-t,a.anchor.ch),c=a.start;c&lt;=a.end;c++){var f=c-t;c==a.end&amp;&amp;(l=n(f,e.getLine(f).length+1)),f&lt;e.lastLine()&amp;&amp;(e.replaceRange(\&quot; \&quot;,n(f),n(f+1,/^\\s*/.exec(e.getLine(f+1))[0].length)),++t)}o.push({anchor:s||l,head:l})}e.setSelections(o,0)})},t.duplicateLine=function(e){e.operation(function(){for(var t=e.listSelections().length,r=0;r&lt;t;r++){var o=e.listSelections()[r];o.empty()?e.replaceRange(e.getLine(o.head.line)+\&quot;\\n\&quot;,n(o.head.line,0)):e.replaceRange(e.getRange(o.from(),o.to()),o.from())}e.scrollIntoView()})},t.sortLines=function(e){c(e,!0)},t.sortLinesInsensitive=function(e){c(e,!1)},t.nextBookmark=function(e){var t=e.state.sublimeBookmarks;if(t)for(;t.length;){var n=t.shift(),r=n.find();if(r)return t.push(n),e.setSelection(r.from,r.to)}},t.prevBookmark=function(e){var t=e.state.sublimeBookmarks;if(t)for(;t.length;){t.unshift(t.pop());var n=t[t.length-1].find();if(n)return e.setSelection(n.from,n.to);t.pop()}},t.toggleBookmark=function(e){for(var t=e.listSelections(),n=e.state.sublimeBookmarks||(e.state.sublimeBookmarks=[]),r=0;r&lt;t.length;r++){for(var o=t[r].from(),i=t[r].to(),l=t[r].empty()?e.findMarksAt(o):e.findMarks(o,i),a=0;a&lt;l.length;a++)if(l[a].sublimeBookmark){l[a].clear();for(var s=0;s&lt;n.length;s++)n[s]==l[a]&amp;&amp;n.splice(s--,1);break}a==l.length&amp;&amp;n.push(e.markText(o,i,{sublimeBookmark:!0,clearWhenEmpty:!1}))}},t.clearBookmarks=function(e){var t=e.state.sublimeBookmarks;if(t)for(var n=0;n&lt;t.length;n++)t[n].clear();t.length=0},t.selectBookmarks=function(e){var t=e.state.sublimeBookmarks,n=[];if(t)for(var r=0;r&lt;t.length;r++){var o=t[r].find();o?n.push({anchor:o.from,head:o.to}):t.splice(r--,0)}n.length&amp;&amp;e.setSelections(n,0)},t.smartBackspace=function(t){if(t.somethingSelected())return e.Pass;t.operation(function(){for(var r=t.listSelections(),o=t.getOption(\&quot;indentUnit\&quot;),i=r.length-1;i&gt;=0;i--){var l=r[i].head,a=t.getRange({line:l.line,ch:0},l),s=e.countColumn(a,null,t.getOption(\&quot;tabSize\&quot;)),c=t.findPosH(l,-1,\&quot;char\&quot;,!1);if(a&amp;&amp;!/\\S/.test(a)&amp;&amp;s%o==0){var f=new n(l.line,e.findColumn(a,s-o,o));f.ch!=l.ch&amp;&amp;(c=f)}t.replaceRange(\&quot;\&quot;,c,l,\&quot;+delete\&quot;)}})},t.delLineRight=function(e){e.operation(function(){for(var t=e.listSelections(),r=t.length-1;r&gt;=0;r--)e.replaceRange(\&quot;\&quot;,t[r].anchor,n(t[r].to().line),\&quot;+delete\&quot;);e.scrollIntoView()})},t.upcaseAtCursor=function(e){f(e,function(e){return e.toUpperCase()})},t.downcaseAtCursor=function(e){f(e,function(e){return e.toLowerCase()})},t.setSublimeMark=function(e){e.state.sublimeMark&amp;&amp;e.state.sublimeMark.clear(),e.state.sublimeMark=e.setBookmark(e.getCursor())},t.selectToSublimeMark=function(e){var t=e.state.sublimeMark&amp;&amp;e.state.sublimeMark.find();t&amp;&amp;e.setSelection(e.getCursor(),t)},t.deleteToSublimeMark=function(t){var n=t.state.sublimeMark&amp;&amp;t.state.sublimeMark.find();if(n){var r=t.getCursor(),o=n;if(e.cmpPos(r,o)&gt;0){var i=o;o=r,r=i}t.state.sublimeKilled=t.getRange(r,o),t.replaceRange(\&quot;\&quot;,r,o)}},t.swapWithSublimeMark=function(e){var t=e.state.sublimeMark&amp;&amp;e.state.sublimeMark.find();t&amp;&amp;(e.state.sublimeMark.clear(),e.state.sublimeMark=e.setBookmark(e.getCursor()),e.setCursor(t))},t.sublimeYank=function(e){null!=e.state.sublimeKilled&amp;&amp;e.replaceSelection(e.state.sublimeKilled,null,\&quot;paste\&quot;)},t.showInCenter=function(e){var t=e.cursorCoords(null,\&quot;local\&quot;);e.scrollTo(null,(t.top+t.bottom)/2-e.getScrollInfo().clientHeight/2)},t.findUnder=function(e){d(e,!0)},t.findUnderPrevious=function(e){d(e,!1)},t.findAllUnder=function(e){var t=u(e);if(t){for(var n=e.getSearchCursor(t.query),r=[],o=-1;n.findNext();)r.push({anchor:n.from(),head:n.to()}),n.from().line&lt;=t.from.line&amp;&amp;n.from().ch&lt;=t.from.ch&amp;&amp;o++;e.setSelections(r,o)}};var m=e.keyMap;m.macSublime={\&quot;Cmd-Left\&quot;:\&quot;goLineStartSmart\&quot;,\&quot;Shift-Tab\&quot;:\&quot;indentLess\&quot;,\&quot;Shift-Ctrl-K\&quot;:\&quot;deleteLine\&quot;,\&quot;Alt-Q\&quot;:\&quot;wrapLines\&quot;,\&quot;Ctrl-Left\&quot;:\&quot;goSubwordLeft\&quot;,\&quot;Ctrl-Right\&quot;:\&quot;goSubwordRight\&quot;,\&quot;Ctrl-Alt-Up\&quot;:\&quot;scrollLineUp\&quot;,\&quot;Ctrl-Alt-Down\&quot;:\&quot;scrollLineDown\&quot;,\&quot;Cmd-L\&quot;:\&quot;selectLine\&quot;,\&quot;Shift-Cmd-L\&quot;:\&quot;splitSelectionByLine\&quot;,Esc:\&quot;singleSelectionTop\&quot;,\&quot;Cmd-Enter\&quot;:\&quot;insertLineAfter\&quot;,\&quot;Shift-Cmd-Enter\&quot;:\&quot;insertLineBefore\&quot;,\&quot;Cmd-D\&quot;:\&quot;selectNextOccurrence\&quot;,\&quot;Shift-Cmd-Space\&quot;:\&quot;selectScope\&quot;,\&quot;Shift-Cmd-M\&quot;:\&quot;selectBetweenBrackets\&quot;,\&quot;Cmd-M\&quot;:\&quot;goToBracket\&quot;,\&quot;Cmd-Ctrl-Up\&quot;:\&quot;swapLineUp\&quot;,\&quot;Cmd-Ctrl-Down\&quot;:\&quot;swapLineDown\&quot;,\&quot;Cmd-/\&quot;:\&quot;toggleCommentIndented\&quot;,\&quot;Cmd-J\&quot;:\&quot;joinLines\&quot;,\&quot;Shift-Cmd-D\&quot;:\&quot;duplicateLine\&quot;,F9:\&quot;sortLines\&quot;,\&quot;Cmd-F9\&quot;:\&quot;sortLinesInsensitive\&quot;,F2:\&quot;nextBookmark\&quot;,\&quot;Shift-F2\&quot;:\&quot;prevBookmark\&quot;,\&quot;Cmd-F2\&quot;:\&quot;toggleBookmark\&quot;,\&quot;Shift-Cmd-F2\&quot;:\&quot;clearBookmarks\&quot;,\&quot;Alt-F2\&quot;:\&quot;selectBookmarks\&quot;,Backspace:\&quot;smartBackspace\&quot;,\&quot;Cmd-K Cmd-K\&quot;:\&quot;delLineRight\&quot;,\&quot;Cmd-K Cmd-U\&quot;:\&quot;upcaseAtCursor\&quot;,\&quot;Cmd-K Cmd-L\&quot;:\&quot;downcaseAtCursor\&quot;,\&quot;Cmd-K Cmd-Space\&quot;:\&quot;setSublimeMark\&quot;,\&quot;Cmd-K Cmd-A\&quot;:\&quot;selectToSublimeMark\&quot;,\&quot;Cmd-K Cmd-W\&quot;:\&quot;deleteToSublimeMark\&quot;,\&quot;Cmd-K Cmd-X\&quot;:\&quot;swapWithSublimeMark\&quot;,\&quot;Cmd-K Cmd-Y\&quot;:\&quot;sublimeYank\&quot;,\&quot;Cmd-K Cmd-C\&quot;:\&quot;showInCenter\&quot;,\&quot;Cmd-K Cmd-G\&quot;:\&quot;clearBookmarks\&quot;,\&quot;Cmd-K Cmd-Backspace\&quot;:\&quot;delLineLeft\&quot;,\&quot;Cmd-K Cmd-0\&quot;:\&quot;unfoldAll\&quot;,\&quot;Cmd-K Cmd-J\&quot;:\&quot;unfoldAll\&quot;,\&quot;Ctrl-Shift-Up\&quot;:\&quot;addCursorToPrevLine\&quot;,\&quot;Ctrl-Shift-Down\&quot;:\&quot;addCursorToNextLine\&quot;,\&quot;Cmd-F3\&quot;:\&quot;findUnder\&quot;,\&quot;Shift-Cmd-F3\&quot;:\&quot;findUnderPrevious\&quot;,\&quot;Alt-F3\&quot;:\&quot;findAllUnder\&quot;,\&quot;Shift-Cmd-[\&quot;:\&quot;fold\&quot;,\&quot;Shift-Cmd-]\&quot;:\&quot;unfold\&quot;,\&quot;Cmd-I\&quot;:\&quot;findIncremental\&quot;,\&quot;Shift-Cmd-I\&quot;:\&quot;findIncrementalReverse\&quot;,\&quot;Cmd-H\&quot;:\&quot;replace\&quot;,F3:\&quot;findNext\&quot;,\&quot;Shift-F3\&quot;:\&quot;findPrev\&quot;,fallthrough:\&quot;macDefault\&quot;},e.normalizeKeyMap(m.macSublime),m.pcSublime={\&quot;Shift-Tab\&quot;:\&quot;indentLess\&quot;,\&quot;Shift-Ctrl-K\&quot;:\&quot;deleteLine\&quot;,\&quot;Alt-Q\&quot;:\&quot;wrapLines\&quot;,\&quot;Ctrl-T\&quot;:\&quot;transposeChars\&quot;,\&quot;Alt-Left\&quot;:\&quot;goSubwordLeft\&quot;,\&quot;Alt-Right\&quot;:\&quot;goSubwordRight\&quot;,\&quot;Ctrl-Up\&quot;:\&quot;scrollLineUp\&quot;,\&quot;Ctrl-Down\&quot;:\&quot;scrollLineDown\&quot;,\&quot;Ctrl-L\&quot;:\&quot;selectLine\&quot;,\&quot;Shift-Ctrl-L\&quot;:\&quot;splitSelectionByLine\&quot;,Esc:\&quot;singleSelectionTop\&quot;,\&quot;Ctrl-Enter\&quot;:\&quot;insertLineAfter\&quot;,\&quot;Shift-Ctrl-Enter\&quot;:\&quot;insertLineBefore\&quot;,\&quot;Ctrl-D\&quot;:\&quot;selectNextOccurrence\&quot;,\&quot;Shift-Ctrl-Space\&quot;:\&quot;selectScope\&quot;,\&quot;Shift-Ctrl-M\&quot;:\&quot;selectBetweenBrackets\&quot;,\&quot;Ctrl-M\&quot;:\&quot;goToBracket\&quot;,\&quot;Shift-Ctrl-Up\&quot;:\&quot;swapLineUp\&quot;,\&quot;Shift-Ctrl-Down\&quot;:\&quot;swapLineDown\&quot;,\&quot;Ctrl-/\&quot;:\&quot;toggleCommentIndented\&quot;,\&quot;Ctrl-J\&quot;:\&quot;joinLines\&quot;,\&quot;Shift-Ctrl-D\&quot;:\&quot;duplicateLine\&quot;,F9:\&quot;sortLines\&quot;,\&quot;Ctrl-F9\&quot;:\&quot;sortLinesInsensitive\&quot;,F2:\&quot;nextBookmark\&quot;,\&quot;Shift-F2\&quot;:\&quot;prevBookmark\&quot;,\&quot;Ctrl-F2\&quot;:\&quot;toggleBookmark\&quot;,\&quot;Shift-Ctrl-F2\&quot;:\&quot;clearBookmarks\&quot;,\&quot;Alt-F2\&quot;:\&quot;selectBookmarks\&quot;,Backspace:\&quot;smartBackspace\&quot;,\&quot;Ctrl-K Ctrl-K\&quot;:\&quot;delLineRight\&quot;,\&quot;Ctrl-K Ctrl-U\&quot;:\&quot;upcaseAtCursor\&quot;,\&quot;Ctrl-K Ctrl-L\&quot;:\&quot;downcaseAtCursor\&quot;,\&quot;Ctrl-K Ctrl-Space\&quot;:\&quot;setSublimeMark\&quot;,\&quot;Ctrl-K Ctrl-A\&quot;:\&quot;selectToSublimeMark\&quot;,\&quot;Ctrl-K Ctrl-W\&quot;:\&quot;deleteToSublimeMark\&quot;,\&quot;Ctrl-K Ctrl-X\&quot;:\&quot;swapWithSublimeMark\&quot;,\&quot;Ctrl-K Ctrl-Y\&quot;:\&quot;sublimeYank\&quot;,\&quot;Ctrl-K Ctrl-C\&quot;:\&quot;showInCenter\&quot;,\&quot;Ctrl-K Ctrl-G\&quot;:\&quot;clearBookmarks\&quot;,\&quot;Ctrl-K Ctrl-Backspace\&quot;:\&quot;delLineLeft\&quot;,\&quot;Ctrl-K Ctrl-0\&quot;:\&quot;unfoldAll\&quot;,\&quot;Ctrl-K Ctrl-J\&quot;:\&quot;unfoldAll\&quot;,\&quot;Ctrl-Alt-Up\&quot;:\&quot;addCursorToPrevLine\&quot;,\&quot;Ctrl-Alt-Down\&quot;:\&quot;addCursorToNextLine\&quot;,\&quot;Ctrl-F3\&quot;:\&quot;findUnder\&quot;,\&quot;Shift-Ctrl-F3\&quot;:\&quot;findUnderPrevious\&quot;,\&quot;Alt-F3\&quot;:\&quot;findAllUnder\&quot;,\&quot;Shift-Ctrl-[\&quot;:\&quot;fold\&quot;,\&quot;Shift-Ctrl-]\&quot;:\&quot;unfold\&quot;,\&quot;Ctrl-I\&quot;:\&quot;findIncremental\&quot;,\&quot;Shift-Ctrl-I\&quot;:\&quot;findIncrementalReverse\&quot;,\&quot;Ctrl-H\&quot;:\&quot;replace\&quot;,F3:\&quot;findNext\&quot;,\&quot;Shift-F3\&quot;:\&quot;findPrev\&quot;,fallthrough:\&quot;pcDefault\&quot;},e.normalizeKeyMap(m.pcSublime);var h=m.default==m.macDefault;m.sublime=h?m.macSublime:m.pcSublime});&quot;,
+            &quot;type&quot;: &quot;application/javascript&quot;,
+            &quot;title&quot;: &quot;$:/plugins/tiddlywiki/codemirror/keymap/sublime.js&quot;,
+            &quot;module-type&quot;: &quot;codemirror&quot;
+        },
+        &quot;$:/plugins/tiddlywiki/codemirror-keymap-sublime-text/readme&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/tiddlywiki/codemirror-keymap-sublime-text/readme&quot;,
+            &quot;text&quot;: &quot;This plugin adds a ''Keymap'' with the most important ''Sublime Text'' keyboard shortcuts\n\nShortcuts that interfere with ~TiddlyWiki shortcuts differ from the original sublime shortcuts to preserve functionality\n\n\n|Shortcut |Function |h\n|Shift-Tab |indentLess |\n|Shift-Ctrl-K |deleteLine |\n|Alt-Q |wrapLines |\n|Alt-T |transposeChars |\n|Alt-Left |goSubwordLeft |\n|Alt-Right |goSubwordRight |\n|Ctrl-Up |scrollLineUp |\n|Ctrl-Down |scrollLineDown |\n|Alt-L |selectLine |\n|Shift-Alt-L |splitSelectionByLine |\n|Ctrl-Esc |singleSelectionTop |\n|Shift-Enter |insertLineAfter |\n|Shift-Ctrl-Enter |insertLineBefore |\n|Ctrl-D |selectNextOccurrence |\n|Shift-Ctrl-Space |selectScope |\n|Shift-Ctrl-M |selectBetweenBrackets |\n|Alt-M |goToBracket |\n|Shift-Ctrl-Up |swapLineUp |\n|Shift-Ctrl-Down |swapLineDown |\n|Ctrl-/ |toggleCommentIndented |\n|Ctrl-J |joinLines |\n|Shift-Ctrl-D |duplicateLine |\n|F9 |sortLines |\n|Ctrl-F9 |sortLinesInsensitive |\n|F2 |nextBookmark |\n|Shift-F2 |prevBookmark |\n|Ctrl-F2 |toggleBookmark |\n|Shift-Ctrl-F2 |clearBookmarks |\n|Alt-F2 |selectBookmarks |\n|Backspace |smartBackspace |\n|Ctrl-K Ctrl-K |delLineRight |\n|Ctrl-K Alt-U |upcaseAtCursor |\n|Ctrl-K Alt-L |downcaseAtCursor |\n|Ctrl-K Ctrl-Space |setSublimeMark |\n|Ctrl-K Ctrl-A |selectToSublimeMark |\n|Ctrl-K Alt-D |deleteToSublimeMark |\n|Ctrl-K Ctrl-X |swapWithSublimeMark |\n|Ctrl-K Ctrl-Y |sublimeYank |\n|Ctrl-K Ctrl-C |showInCenter |\n|Ctrl-K Ctrl-G |clearBookmarks |\n|Ctrl-K Ctrl-Backspace |delLineLeft |\n|Ctrl-K Ctrl-0 |unfoldAll |\n|Ctrl-K Ctrl-J |unfoldAll |\n|Ctrl-Alt-Up |addCursorToPrevLine |\n|Ctrl-Alt-Down |addCursorToNextLine |\n|Ctrl-F3 |findUnder |\n|Shift-Ctrl-F3 |findUnderPrevious |\n|Shift-Ctrl-[ |fold |\n|Shift-Ctrl-] |unfold |\n|Ctrl-H |replace |\n&quot;
+        }
+    }
+}</pre>
+</div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="" description="Dynamic scrolling and zooming effects" list="readme docs examples config" plugin-type="plugin" title="$:/plugins/tiddlywiki/dynaview" type="application/json" version="5.1.17">
 <pre>{
     &quot;tiddlers&quot;: {
@@ -9976,6 +10034,9 @@ Error message and password prompt
 <div created="20180715032914470" modified="20180715032914470" title="$:/state/add-plugin-info/$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.17/index.html/$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.17/index.html/$:/plugins/tiddlywiki/classictools">
 <pre>yes</pre>
 </div>
+<div created="20180715073125453" modified="20180715073125453" title="$:/state/add-plugin-info/$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.17/index.html/$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.17/index.html/$:/plugins/tiddlywiki/codemirror-keymap-sublime-text">
+<pre>yes</pre>
+</div>
 <div created="20180715032006491" modified="20180715032826360" title="$:/state/add-plugin-info/$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.17/index.html/$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.17/index.html/$:/plugins/tiddlywiki/dynaview">
 <pre>no</pre>
 </div>
@@ -10024,8 +10085,8 @@ Error message and password prompt
 <div created="20180522042717884" modified="20180715031947650" title="$:/state/tab-1749438307">
 <pre>$:/core/ui/ControlPanel/Plugins</pre>
 </div>
-<div created="20180522042811533" modified="20180715064753544" title="$:/state/tab/sidebar--1835078512">
-<pre>$:/core/ui/SideBar/Tools</pre>
+<div created="20180522042811533" modified="20180715080724505" title="$:/state/tab/sidebar--1835078512">
+<pre>TOC</pre>
 </div>
 <div created="20180715044832443" modified="20180715044832443" title="$:/state/toc/TableOfContents-中药-972943814">
 <pre>open</pre>
@@ -10037,6 +10098,9 @@ Error message and password prompt
 <pre>open</pre>
 </div>
 <div created="20180715044644660" modified="20180715044644660" title="$:/state/toc/TableOfContents-本能系统论-972943814">
+<pre>open</pre>
+</div>
+<div created="20180715080029940" modified="20180715080029940" title="$:/state/toc/TableOfContents-症状-972943814">
 <pre>open</pre>
 </div>
 <div created="20180715044921031" modified="20180715044921031" title="$:/state/toc/TableOfContents-穴位-972943814">
@@ -10051,7 +10115,7 @@ Error message and password prompt
 <div created="20180715044704755" modified="20180715044704755" title="$:/state/toc/TableOfContents/伤寒论-少阳病-972943814">
 <pre>open</pre>
 </div>
-<div created="20180715042925109" list="少阳病四大主症 小柴胡汤 伤寒论方剂 针灸 穴位 本能系统论 TOC $:/config/Search/MinLength [[Tiddlywiki Cheat Sheet]] 头眩 呕而发热者，小柴胡汤主之 少阳病 牡蛎 中药 栝娄 咕噜 结气 阳池穴 解肌法 流行性病毒感冒 升降出入系统 伤寒论 芍药 [[感冒 发热 恶风]] 少阳病纲领" modified="20180715042925109" title="$:/StoryList">
+<div list="辩证 呕而发热之柴胡证vs结胸vs心下痞 心下痞 柴胡汤证被下而柴胡证仍在 结胸 [[Tiddlywiki References]]" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -10067,7 +10131,7 @@ Error message and password prompt
         },
         &quot;$:/info/url/full&quot;: {
             &quot;title&quot;: &quot;$:/info/url/full&quot;,
-            &quot;text&quot;: &quot;file:///Users/wanjia/github.com.vwan/projects/Gitbook/wikicards/tcm.html&quot;
+            &quot;text&quot;: &quot;file:///Users/wanjia/github.com.vwan/projects/Gitbook/wikicards/index.html&quot;
         },
         &quot;$:/info/url/host&quot;: {
             &quot;title&quot;: &quot;$:/info/url/host&quot;,
@@ -10087,7 +10151,7 @@ Error message and password prompt
         },
         &quot;$:/info/url/pathname&quot;: {
             &quot;title&quot;: &quot;$:/info/url/pathname&quot;,
-            &quot;text&quot;: &quot;/Users/wanjia/github.com.vwan/projects/Gitbook/wikicards/tcm.html&quot;
+            &quot;text&quot;: &quot;/Users/wanjia/github.com.vwan/projects/Gitbook/wikicards/index.html&quot;
         },
         &quot;$:/info/url/search&quot;: {
             &quot;title&quot;: &quot;$:/info/url/search&quot;,
@@ -10760,16 +10824,16 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 <div author="JeremyRuston" core-version="&gt;=5.0.0" created="20180522042731107" dependents="" description="Basic theme" modified="20180522042731107" name="Vanilla" original-plugin-type="theme" original-tags="" original-title="$:/themes/tiddlywiki/vanilla" original-type="application/json" plugin-priority="0" server-url="https://tiddlywiki.com/library/v5.1.17/index.html" tags="$:/tags/RemoteAssetInfo" title="$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.17/index.html/$:/themes/tiddlywiki/vanilla" type="text/vnd.tiddlywiki" version="5.1.17">
 <pre></pre>
 </div>
-<div created="20180522042733066" modified="20180715032646395" title="$:/temp/RemoteAssetSearch/$:/config/OfficialPluginLibrary">
-<pre></pre>
+<div created="20180522042733066" modified="20180715073123419" title="$:/temp/RemoteAssetSearch/$:/config/OfficialPluginLibrary">
+<pre>subl</pre>
 </div>
-<div created="20180715041203826" modified="20180715044902960" title="$:/temp/search">
-<pre>穴位</pre>
+<div created="20180715041203826" modified="20180715081027185" title="$:/temp/search">
+<pre>心下</pre>
 </div>
-<div created="20180715032947628" modified="20180715032947628" tags="$:/tags/ServerConnection" title="$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.17/index.html" url="https://tiddlywiki.com/library/v5.1.17/index.html">
+<div created="20180715073032489" modified="20180715073032489" tags="$:/tags/ServerConnection" title="$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.17/index.html" url="https://tiddlywiki.com/library/v5.1.17/index.html">
 <pre>loaded</pre>
 </div>
-<div created="20180522143048492" modified="20180715064229674" title="$:/theme">
+<div created="20180522143048492" modified="20180715080308953" title="$:/theme">
 <pre>$:/themes/tiddlywiki/heavier</pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="$:/themes/tiddlywiki/snowwhite" description="Centralises the story river" name="Centralised" plugin-type="theme" title="$:/themes/tiddlywiki/centralised" type="application/json" version="5.1.17">
@@ -10982,10 +11046,13 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 <div created="20180715031943406" modified="20180715033907176" title="$:/view">
 <pre>classic</pre>
 </div>
-<div created="20180715033911512" modified="20180715050918929" tags="TableOfContents tiddlywiki [[cheat sheet]]" title="Tiddlywiki Cheat Sheet" type="text/x-markdown">
+<div created="20180714080129840" draft.of="中药" draft.title="中药" modified="20180715080003247" tags="TableOfContents" title="Draft of '中药'" type="text/vnd.tiddlywiki">
+<pre>&lt;&lt;list-links &quot;[tag[中药]sort[title]]&quot;&gt;&gt;</pre>
+</div>
+<div created="20180715033911512" modified="20180715080942443" tags="TableOfContents tiddlywiki [[cheat sheet]]" title="Tiddlywiki References" type="text/x-markdown">
 <pre>## [TW5 Magick — Some tricks and snippets for TiddlyWiki 5](http://tw5magick.tiddlyspot.com/)
 
-## [hints.pdf](http://www.tcm.phy.cam.ac.uk/~mdt26/PWT/hints.pdf)
+## [Cheat Sheet hints.pdf](http://www.tcm.phy.cam.ac.uk/~mdt26/PWT/hints.pdf)
 
 ## [使用 TiddlyWiki 打造轻便个人 Wiki 知识库 - 钉子の次元](http://blog.dimpurr.com/tiddly-wiki/)
 
@@ -11010,10 +11077,28 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 <div created="20180715045025248" modified="20180715045039819" tags="伤寒论" title="伤寒论方剂">
 <pre></pre>
 </div>
+<div created="20180715074511386" modified="20180715074721903" tags="便秘 小儿 小儿便秘 推拿 小儿推拿" title="便秘" type="text/x-markdown">
+<pre>## 实秘
+
+## 虚秘
+
+配合捏脊</pre>
+</div>
 <div created="20180714072207916" modified="20180715044631771" tags="本能系统论 郭生白" title="升降出入系统" type="text/x-markdown">
 <pre>## 凡是向上的，同时向外
 
 ## 凡是向内的，同时向下</pre>
+</div>
+<div created="20180715081635308" modified="20180715082027956" tags="辩证" title="呕而发热之柴胡证vs结胸vs心下痞" type="text/x-markdown">
+<pre>## 呕而发热之柴胡证
+
+呕而心烦发热，腹部平软无异常表现
+
+## [结胸](结胸)
+心下满按之疼，或心下至少腹硬满而疼
+
+## [心下痞](心下痞)
+心下满而按之软</pre>
 </div>
 <div created="20180714081900339" modified="20180715045411066" tags="少阳病" title="呕而发热者，小柴胡汤主之" type="text/x-markdown">
 <pre>呕而发热 -&gt; 即心烦喜呕
@@ -11036,8 +11121,27 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 # 小柴胡汤
 少阳之为病，口苦咽干目眩也</pre>
 </div>
-<div created="20180715045307784" modified="20180715045929592" tags="方剂 伤寒论方剂" title="小柴胡汤">
+<div created="20180715074457392" modified="20180715074507733" tags="TableOfContents" title="小儿推拿">
 <pre></pre>
+</div>
+<div created="20180715045307784" modified="20180715073548175" tags="方剂 伤寒论方剂" title="小柴胡汤" type="text/x-markdown">
+<pre>## 小柴胡汤
+
+[柴胡](#柴胡) 112g
+黄芩 42g
+人参 42g
+半夏 99g
+甘草42g
+生姜 42g
+大枣12枚掰碎
+
+上七味，以水2400ml，煮取 1200ml，去渣滓
+
+再煎取600ml
+
+温服200ml
+
+日3服。</pre>
 </div>
 <div created="20180714081617132" modified="20180715044558275" tags="伤寒论" title="少阳病" type="text/vnd.tiddlywiki">
 <pre>&lt;&lt;list-links &quot;[tag[少阳病]sort[title]]&quot;&gt;&gt;</pre>
@@ -11083,6 +11187,11 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 郭生白：若吐下，救逆可柴胡加龙骨牡蛎汤
 </pre>
 </div>
+<div created="20180715080406722" modified="20180715081043736" tags="症状" title="心下痞" type="text/x-markdown">
+<pre>##  心下满而按之软，用指头弹之有气体声。
+
+（类似：鼓起腮帮子，用指头弹的那种空空的声音）</pre>
+</div>
 <div created="20180714071936761" modified="20180714071955485" tags="" title="感冒 发热 恶风" type="text/x-markdown">
 <pre>## 症状
 
@@ -11098,6 +11207,15 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 </div>
 <div created="20180715044633166" modified="20180715044642179" tags="TableOfContents" title="本能系统论">
 <pre></pre>
+</div>
+<div created="20180715073549460" modified="20180715073838607" tags="中药" title="柴胡" type="text/x-markdown">
+<pre># 柴胡
+
+《本草经》
+&gt; 柴胡主心腹肠胃中[结气](#结气), 寒热邪气，推陈致新，久服轻身明目益精                            </pre>
+</div>
+<div created="20180715074909433" modified="20180715081118471" tags="少阳病" title="柴胡汤证被下而柴胡证仍在" type="text/x-markdown">
+<pre>## 伤寒五六日，呕而发热者，柴胡汤证具而以他药下之，柴胡证仍在者，复与柴胡汤。此虽下之，不为逆，必蒸蒸而振（[战汗](#战汗))，却发热汗出而解。若心下满而硬疼者，此为[结胸](#结胸)也，[大陷胸汤](#大陷胸汤)主之。但满而不痛者此为[痞](#心下痞)，柴胡不中与之，宜[半夏泻心汤](#半夏泻心汤)。</pre>
 </div>
 <div created="20180714075906936" list="" modified="20180714081045495" tags="栝娄根 栝娄 郭生白 中药 胸中烦 胸中有热 止渴" title="栝娄" type="text/x-markdown">
 <pre># 栝娄实
@@ -11126,6 +11244,9 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 
 ### 小柴胡汤中，若胁下痞硬，去大枣加牡蛎。（大枣助满，所以去掉）</pre>
 </div>
+<div created="20180715075949565" modified="20180715080050540" tags="TableOfContents" title="症状">
+<pre>&lt;&lt;list-links &quot;[tag[症状]sort[title]]&quot;&gt;&gt;</pre>
+</div>
 <div created="20180714072654516" modified="20180715044910676" tags="TableOfContents" title="穴位" type="text/vnd.tiddlywiki">
 <pre># 原穴
   &lt;&lt;list-links &quot;[tag[穴位]sort[title]]&quot;&gt;&gt;</pre>
@@ -11145,6 +11266,16 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 - 脾气郁结 -&gt; 心腹痞满
 
 - 胃气郁结 -&gt; 呕恶不欲饮食</pre>
+</div>
+<div created="20180715075913061" modified="20180715080246753" tags="症状" title="结胸" type="text/x-markdown">
+<pre>
+## 小结胸
+
+心下满按之疼
+
+## 大结胸
+
+心下至少腹硬满而疼</pre>
 </div>
 <div created="20180714072027829" modified="20180715044847041" tags="中药" title="芍药" type="text/x-markdown">
 <pre># 性
@@ -11169,6 +11300,9 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 
 ## 头疼
 血压提高，大量的血向体表供应</pre>
+</div>
+<div created="20180715082035296" modified="20180715082042550" tags="TableOfContents" title="辩证">
+<pre></pre>
 </div>
 <div created="20180715044924731" modified="20180715044936533" tags="TableOfContents" title="针灸">
 <pre></pre>

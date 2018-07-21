@@ -149,10 +149,6 @@ Error message and password prompt
 
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/theme</li>
 
-<li>$:/config/plugins/text-slicer/base-title</li>
-
-<li>$:/config/plugins/text-slicer/output-mode</li>
-
 <li>$:/config/RelinkOnRename</li>
 
 <li>$:/config/Search/MinLength</li>
@@ -219,12 +215,6 @@ Error message and password prompt
 
 <li>$:/state/add-plugin-info/$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.17/index.html/$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.17/index.html/$:/themes/tiddlywiki/tight</li>
 
-<li>$:/state/editpreviewtype</li>
-
-<li>$:/state/plugins/tiddlywiki/text-slicer/heading-status/少阳病纲领-heading-8/view-template/少阳病纲领-heading-8</li>
-
-<li>$:/state/plugins/tiddlywiki/text-slicer/heading-status/少阳病纲领-heading-9/view-template/少阳病纲领-heading-9</li>
-
 <li>$:/state/showeditpreview</li>
 
 <li>$:/state/sidebar</li>
@@ -245,13 +235,11 @@ Error message and password prompt
 
 <li>$:/state/tab/sidebar--1835078512</li>
 
-<li>$:/state/tag-manager/少阳病纲领:</li>
-
 <li>$:/state/toc/TableOfContents-中药-972943814</li>
 
-<li>$:/state/toc/TableOfContents-临床-972943814</li>
-
 <li>$:/state/toc/TableOfContents-伤寒论-972943814</li>
+
+<li>$:/state/toc/TableOfContents-小儿推拿-972943814</li>
 
 <li>$:/state/toc/TableOfContents-少阳病-972943814</li>
 
@@ -265,15 +253,9 @@ Error message and password prompt
 
 <li>$:/state/toc/TableOfContents/中药-栝娄-972943814</li>
 
-<li>$:/state/toc/TableOfContents/伤寒论-临床-972943814</li>
-
 <li>$:/state/toc/TableOfContents/伤寒论-伤寒论方剂-972943814</li>
 
 <li>$:/state/toc/TableOfContents/伤寒论-少阳病-972943814</li>
-
-<li>$:/state/toc/TableOfContents/伤寒论/少阳病-少阳病纲领-972943814</li>
-
-<li>$:/state/toc/TableOfContents/伤寒论/少阳病/少阳病纲领-少阳病纲领-heading-9-972943814</li>
 
 <li>$:/StoryList</li>
 
@@ -505,11 +487,9 @@ Error message and password prompt
 
 <li>TODO</li>
 
-<li>三阳病禁宜</li>
+<li>Untitled</li>
 
 <li>中药</li>
-
-<li>临床</li>
 
 <li>交感神经</li>
 
@@ -533,11 +513,7 @@ Error message and password prompt
 
 <li>咽干</li>
 
-<li>头痛</li>
-
 <li>头眩</li>
-
-<li>妞妞</li>
 
 <li>小儿推拿</li>
 
@@ -549,31 +525,7 @@ Error message and password prompt
 
 <li>少阳病纲领</li>
 
-<li>少阳病纲领-anchor-</li>
-
-<li>少阳病纲领-heading-1</li>
-
-<li>少阳病纲领-heading-2</li>
-
-<li>少阳病纲领-heading-3</li>
-
-<li>少阳病纲领-heading-4</li>
-
-<li>少阳病纲领-heading-5</li>
-
-<li>少阳病纲领-heading-6</li>
-
-<li>少阳病纲领-heading-7</li>
-
-<li>少阳病纲领-heading-8</li>
-
-<li>少阳病纲领-heading-9</li>
-
-<li>少阳病纲领-paragraph-1</li>
-
 <li>往来寒热</li>
-
-<li>心下悸</li>
 
 <li>心下痞</li>
 
@@ -587,11 +539,9 @@ Error message and password prompt
 
 <li>柴胡</li>
 
-<li>柴胡汤证被下而柴胡证具</li>
+<li>柴胡汤证被下而柴胡证仍在</li>
 
 <li>栝娄</li>
-
-<li>桂枝汤 vs 麻黄汤</li>
 
 <li>流行性病毒感冒</li>
 
@@ -613,8 +563,6 @@ Error message and password prompt
 
 <li>芍药</li>
 
-<li>表证</li>
-
 <li>解肌法</li>
 
 <li>辩证</li>
@@ -622,8 +570,6 @@ Error message and password prompt
 <li>针灸</li>
 
 <li>阳池穴</li>
-
-<li>阴阳</li>
 
 <li>青铜器</li>
 
@@ -660,12 +606,6 @@ Error message and password prompt
 </div>
 <div created="20180715032431376" modified="20180715032431376" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/theme">
 <pre>show</pre>
-</div>
-<div created="20180721071709832" modified="20180721084415791" title="$:/config/plugins/text-slicer/base-title">
-<pre></pre>
-</div>
-<div created="20180721072216789" modified="20180721084653574" title="$:/config/plugins/text-slicer/output-mode">
-<pre>wiki</pre>
 </div>
 <div created="20180522043049291" modified="20180522043049291" title="$:/config/RelinkOnRename">
 <pre>yes</pre>
@@ -10174,17 +10114,8 @@ Error message and password prompt
 <div created="20180715032051452" modified="20180715032051452" title="$:/state/add-plugin-info/$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.17/index.html/$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.17/index.html/$:/themes/tiddlywiki/tight">
 <pre>yes</pre>
 </div>
-<div created="20180721083552640" modified="20180721083603746" title="$:/state/editpreviewtype">
-<pre>$:/core/ui/EditTemplate/body/preview/output</pre>
-</div>
-<div created="20180721075718391" modified="20180721075718391" title="$:/state/plugins/tiddlywiki/text-slicer/heading-status/少阳病纲领-heading-8/view-template/少阳病纲领-heading-8">
-<pre>open</pre>
-</div>
-<div created="20180721074541336" modified="20180721074541336" title="$:/state/plugins/tiddlywiki/text-slicer/heading-status/少阳病纲领-heading-9/view-template/少阳病纲领-heading-9">
-<pre>open</pre>
-</div>
-<div created="20180715050144926" modified="20180721084330551" title="$:/state/showeditpreview">
-<pre>no</pre>
+<div created="20180715050144926" modified="20180716020754077" title="$:/state/showeditpreview">
+<pre>yes</pre>
 </div>
 <div created="20180522142937134" modified="20180522144941878" title="$:/state/sidebar">
 <pre>yes</pre>
@@ -10207,29 +10138,26 @@ Error message and password prompt
 <div created="20180522042717884" modified="20180717012231918" title="$:/state/tab-1749438307">
 <pre>$:/core/ui/ControlPanel/Settings</pre>
 </div>
-<div created="20180717003705369" modified="20180721084607829" title="$:/state/tab/moresidebar-401116514">
-<pre>$:/core/ui/MoreSideBar/Orphans</pre>
+<div created="20180717003705369" modified="20180717005952173" title="$:/state/tab/moresidebar-401116514">
+<pre>$:/core/ui/MoreSideBar/System</pre>
 </div>
-<div created="20180522042811533" modified="20180721085732500" title="$:/state/tab/sidebar--1835078512">
+<div created="20180522042811533" modified="20180717011548217" title="$:/state/tab/sidebar--1835078512">
 <pre>TOC</pre>
 </div>
-<div created="20180721071951907" modified="20180721072030793" title="$:/state/tag-manager/少阳病纲领:">
-<pre>closed</pre>
-</div>
 <div created="20180715044832443" modified="20180715044832443" title="$:/state/toc/TableOfContents-中药-972943814">
-<pre>open</pre>
-</div>
-<div created="20180721075018135" modified="20180721075018135" title="$:/state/toc/TableOfContents-临床-972943814">
 <pre>open</pre>
 </div>
 <div created="20180715044600208" modified="20180715044600208" title="$:/state/toc/TableOfContents-伤寒论-972943814">
 <pre>open</pre>
 </div>
+<div created="20180715082443765" modified="20180715082443765" title="$:/state/toc/TableOfContents-小儿推拿-972943814">
+<pre>open</pre>
+</div>
 <div created="20180715044318148" modified="20180715044318148" title="$:/state/toc/TableOfContents-少阳病-972943814">
 <pre>open</pre>
 </div>
-<div created="20180715044644660" modified="20180715044644660" title="$:/state/toc/TableOfContents-本能系统论-972943814">
-<pre>open</pre>
+<div created="20180715044644660" modified="20180715082449679" title="$:/state/toc/TableOfContents-本能系统论-972943814">
+<pre>close</pre>
 </div>
 <div created="20180715080029940" modified="20180715080029940" title="$:/state/toc/TableOfContents-症状-972943814">
 <pre>open</pre>
@@ -10237,14 +10165,11 @@ Error message and password prompt
 <div created="20180715044921031" modified="20180715044921031" title="$:/state/toc/TableOfContents-穴位-972943814">
 <pre>open</pre>
 </div>
-<div created="20180721070803085" modified="20180721070803085" title="$:/state/toc/TableOfContents-辩证-972943814">
+<div created="20180715082045217" modified="20180715082045218" title="$:/state/toc/TableOfContents-辩证-972943814">
 <pre>open</pre>
 </div>
 <div created="20180715044834240" modified="20180715044836996" title="$:/state/toc/TableOfContents/中药-栝娄-972943814">
 <pre>close</pre>
-</div>
-<div created="20180721075557831" modified="20180721075557831" title="$:/state/toc/TableOfContents/伤寒论-临床-972943814">
-<pre>open</pre>
 </div>
 <div created="20180715045340685" modified="20180715045340685" title="$:/state/toc/TableOfContents/伤寒论-伤寒论方剂-972943814">
 <pre>open</pre>
@@ -10252,13 +10177,11 @@ Error message and password prompt
 <div created="20180715044704755" modified="20180715044704755" title="$:/state/toc/TableOfContents/伤寒论-少阳病-972943814">
 <pre>open</pre>
 </div>
-<div created="20180721072303088" modified="20180721072303088" title="$:/state/toc/TableOfContents/伤寒论/少阳病-少阳病纲领-972943814">
-<pre>open</pre>
-</div>
-<div created="20180721072307791" modified="20180721072307791" title="$:/state/toc/TableOfContents/伤寒论/少阳病/少阳病纲领-少阳病纲领-heading-9-972943814">
-<pre>open</pre>
-</div>
-<div list="阴阳 三阳病禁宜 [[Tiddlywiki References]] 流行性病毒感冒 [[桂枝汤 vs 麻黄汤]] 表证 针灸 TODO 头痛 伤寒论 临床 小柴胡汤 少阳病纲领-paragraph-1 少阳病纲领-heading-8 少阳病纲领-heading-7 少阳病纲领-heading-5 少阳病纲领-heading-4 少阳病纲领-heading-2 少阳病纲领-heading-6 脉弦细 柴胡汤证被下而柴胡证具 呕而发热者，小柴胡汤主之 心下痞 心下悸 少阳病纲领-heading-1 少阳病纲领-heading-3 少阳病纲领-heading-9 少阳病纲领 妞妞 少阳病四大主症 往来寒热 心烦喜呕 胸胁苦满 $:/TagManager [[感冒 发热 恶风]] 咽干 副交感神经 交感神经 目眩 拘急 头眩" title="$:/StoryList">
+<<<<<<< Updated upstream
+<div list="少阳病四大主症 往来寒热 心烦喜呕 胸胁苦满 $:/TagManager [[感冒 发热 恶风]] 咽干 副交感神经 交感神经 目眩 拘急 头眩" title="$:/StoryList">
+=======
+<div list="小柴胡汤 柴胡 结气 [[Tiddlywiki References]] 结胸 心下痞" title="$:/StoryList">
+>>>>>>> Stashed changes
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -10274,7 +10197,7 @@ Error message and password prompt
         },
         &quot;$:/info/url/full&quot;: {
             &quot;title&quot;: &quot;$:/info/url/full&quot;,
-            &quot;text&quot;: &quot;file:///Users/wanjia/github.com.vwan/projects/Gitbook/wikicards/index.html&quot;
+            &quot;text&quot;: &quot;file:///E:/wanjiagulumi%20Ondrive/Projects/wikicards/index.html&quot;
         },
         &quot;$:/info/url/host&quot;: {
             &quot;title&quot;: &quot;$:/info/url/host&quot;,
@@ -10294,7 +10217,7 @@ Error message and password prompt
         },
         &quot;$:/info/url/pathname&quot;: {
             &quot;title&quot;: &quot;$:/info/url/pathname&quot;,
-            &quot;text&quot;: &quot;/Users/wanjia/github.com.vwan/projects/Gitbook/wikicards/index.html&quot;
+            &quot;text&quot;: &quot;/E:/wanjiagulumi%20Ondrive/Projects/wikicards/index.html&quot;
         },
         &quot;$:/info/url/search&quot;: {
             &quot;title&quot;: &quot;$:/info/url/search&quot;,
@@ -10306,11 +10229,11 @@ Error message and password prompt
         },
         &quot;$:/info/browser/screen/width&quot;: {
             &quot;title&quot;: &quot;$:/info/browser/screen/width&quot;,
-            &quot;text&quot;: &quot;1440&quot;
+            &quot;text&quot;: &quot;1920&quot;
         },
         &quot;$:/info/browser/screen/height&quot;: {
             &quot;title&quot;: &quot;$:/info/browser/screen/height&quot;,
-            &quot;text&quot;: &quot;900&quot;
+            &quot;text&quot;: &quot;1080&quot;
         }
     }
 }</pre>
@@ -10970,14 +10893,18 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 <div created="20180522042733066" modified="20180715073123419" title="$:/temp/RemoteAssetSearch/$:/config/OfficialPluginLibrary">
 <pre>subl</pre>
 </div>
-<div created="20180715041203826" modified="20180721084454347" title="$:/temp/search">
-<pre>桂枝</pre>
+<<<<<<< Updated upstream
+<div created="20180715041203826" modified="20180717003809756" title="$:/temp/search">
+=======
+<div created="20180715041203826" modified="20180715082258127" title="$:/temp/search">
+>>>>>>> Stashed changes
+<pre></pre>
 </div>
 <div created="20180715073032489" modified="20180715073032489" tags="$:/tags/ServerConnection" title="$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.17/index.html" url="https://tiddlywiki.com/library/v5.1.17/index.html">
 <pre>loaded</pre>
 </div>
-<div created="20180522143048492" modified="20180721075053960" title="$:/theme">
-<pre>$:/themes/tiddlywiki/heavier</pre>
+<div created="20180522143048492" modified="20180717001351094" title="$:/theme">
+<pre>$:/themes/tiddlywiki/centralised</pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="$:/themes/tiddlywiki/snowwhite" description="Centralises the story river" name="Centralised" plugin-type="theme" title="$:/themes/tiddlywiki/centralised" type="application/json" version="5.1.17">
 <pre>{
@@ -11186,13 +11113,13 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 <div created="20180522143150796" modified="20180522143150796" title="$:/themes/tiddlywiki/vanilla/options/stickytitles">
 <pre>yes</pre>
 </div>
-<div created="20180715031943406" modified="20180715033907176" title="$:/view">
+<div created="20180715031943406" modified="20180715082416107" title="$:/view">
 <pre>classic</pre>
 </div>
 <div created="20180714080129840" draft.of="中药" draft.title="中药" modified="20180715080003247" tags="TableOfContents" title="Draft of '中药'" type="text/vnd.tiddlywiki">
 <pre>&lt;&lt;list-links &quot;[tag[中药]sort[title]]&quot;&gt;&gt;</pre>
 </div>
-<div created="20180715033911512" modified="20180721084638237" tags="TableOfContents tiddlywiki [[cheat sheet]]" title="Tiddlywiki References" type="text/x-markdown">
+<div created="20180715033911512" modified="20180715082923646" tags="TableOfContents tiddlywiki [[cheat sheet]]" title="Tiddlywiki References" type="text/x-markdown">
 <pre>## [TW5 Magick — Some tricks and snippets for TiddlyWiki 5](http://tw5magick.tiddlyspot.com/)
 
 ## [Cheat Sheet hints.pdf](http://www.tcm.phy.cam.ac.uk/~mdt26/PWT/hints.pdf)
@@ -11203,7 +11130,7 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 
 ## [markdowndemo — a demo of the Markdown plugin for TiddlyWiki5](https://tiddlywiki.com/plugins/tiddlywiki/markdown/)
 
-## http://bjtools.tiddlyspot.com/#%24%3a%2fplugins%2fbj%2ftypestemplate</pre>
+## [An Introduction to TiddlyWiki, revised](https://www.slideshare.net/guest102a23/an-introduction-to-tiddlywiki-revised)</pre>
 </div>
 <div created="20180715043422862" modified="20180715044040099" tags="$:/tags/SideBar" title="TOC" type="text/vnd.tiddlywiki">
 <pre>&lt;div class=&quot;tc-table-of-contents&quot;&gt;
@@ -11214,24 +11141,11 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 <pre>&lt;&lt;list-links &quot;[tag[todo]sort[title]]&quot;&gt;&gt;
 </pre>
 </div>
-<div created="20180721085343679" modified="20180721085727535" tags="辩证" title="三阳病禁宜" type="text/x-markdown">
-<pre>## 太阳病
-可发汗，禁吐、禁下、禁温针
-
-## 少阳病
-只可和解，禁吐下温针发汗
-
-## 阳明病
-胃家实也。
-
-- 热且实则可攻（承气汤类）；
-- 只热，尤其外证，只能用白虎汤</pre>
+<div title="Untitled">
+<pre>http://bjtools.tiddlyspot.com/#%24%3a%2fplugins%2fbj%2ftypestemplate</pre>
 </div>
 <div created="20180714080129840" modified="20180715044830055" tags="TableOfContents" title="中药" type="text/vnd.tiddlywiki">
 <pre>&lt;&lt;list-links &quot;[tag[中药]sort[title]]&quot;&gt;&gt;</pre>
-</div>
-<div created="20180721074943599" modified="20180721075555191" tags="伤寒论" title="临床" type="text/x-markdown">
-<pre></pre>
 </div>
 <div created="20180717005845040" modified="20180717005845040" title="交感神经">
 <pre></pre>
@@ -11301,18 +11215,6 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
      - 情志问题
 </pre>
 </div>
-<div created="20180721074955853" modified="20180721075451334" tags="胡希恕 临床" title="头痛" type="text/x-markdown">
-<pre>## 柴胡剂
-
-胡希恕常用柴胡剂治头痛（必发热）：一般的病毒性感冒，头痛欲裂，
-
-- 若现柴胡证，则小柴胡加石膏
-- 若现大柴胡证（如舌质黄），则大柴胡加石膏
-
-还有三叉神经头痛，脑肿瘤的头痛
-
-</pre>
-</div>
 <div created="20180715030952468" modified="20180717003852123" tags="症状" title="头眩" type="text/x-markdown">
 <pre># 真武汤
 心下悸，头眩，身瞤动(run 二声)，振振欲扑地者
@@ -11325,31 +11227,24 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 # 小柴胡汤
 少阳之为病，[口苦](#口苦)[咽干](#咽干)[目眩](#目眩)也</pre>
 </div>
-<div created="20180721071120923" modified="20180721073007121" tags="" title="妞妞" type="text/x-markdown">
-<pre>妞妞最近老一惊一乍的，走路还特别小心，仿佛怕惊着什么似的（咪咪，是你在吗？）
-
-读胡希恕伤寒论讲座，P322，感觉妞妞不好好吃饭，胃虚了:-(
-
-&gt; 若虚了胃，有寒饮的话就会乘之，则心下悸而惊。
-
-&gt; - 气虚也悸。
-
-&gt; - 吐下伤气，气虚则悸
-
-&gt; - 吐下伤津液，不足以养心，也惊</pre>
-</div>
 <div created="20180715074457392" modified="20180715074507733" tags="TableOfContents" title="小儿推拿">
 <pre></pre>
 </div>
-<div created="20180715045307784" modified="20180715073548175" tags="方剂 伤寒论方剂" title="小柴胡汤" type="text/x-markdown">
+<div created="20180715045307784" modified="20180716020827149" tags="方剂 伤寒论方剂" title="小柴胡汤" type="text/x-markdown">
 <pre>## 小柴胡汤
 
-[柴胡](#柴胡) 112g
+ [柴胡](#柴胡) 112g
+
 黄芩 42g
+
 人参 42g
+
 半夏 99g
+
 甘草42g
+
 生姜 42g
+
 大枣12枚掰碎
 
 上七味，以水2400ml，煮取 1200ml，去渣滓
@@ -11382,87 +11277,30 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 
 [小柴胡汤](#小柴胡汤)主之。</pre>
 </div>
-<div created="20180721072254206" list="少阳病纲领-anchor- 少阳病纲领-heading-1 少阳病纲领-heading-2 少阳病纲领-heading-3 少阳病纲领-heading-4 少阳病纲领-heading-5 少阳病纲领-heading-6 少阳病纲领-heading-7 少阳病纲领-heading-8 少阳病纲领-heading-9" modified="20180721072255532" role="sliced-html" slicer-output-mode="wiki" slicer-rules="html-by-paragraph" tags="少阳病" title="少阳病纲领" toc-type="document">
-<pre>&lt;div class='tc-table-of-contents'&gt;&lt;&lt;toc-selective-expandable &quot;&quot;&quot;少阳病纲领document&quot;&quot;&quot;&gt;&gt;&lt;/div&gt;</pre>
-</div>
-<div caption="" list="" role="sliced-html" tags="少阳病纲领" title="少阳病纲领-anchor-" toc-type="anchor">
-<pre></pre>
-</div>
-<div caption="少阳之为病，口苦咽干目眩也" list="" role="sliced-html" tags="少阳病纲领" title="少阳病纲领-heading-1" toc-heading-level="h2" toc-type="heading">
-<pre>少阳之为病，&lt;a&gt;口苦&lt;/a&gt;&lt;a&gt;咽干&lt;/a&gt;&lt;a&gt;目眩&lt;/a&gt;也</pre>
-</div>
-<div caption="胁下硬满，不大便而呕，舌上白胎者，属少阳，可与小柴胡汤。上焦得通，津液得下，胃气因和，身灿然汗出而解也" list="" role="sliced-html" tags="少阳病纲领" title="少阳病纲领-heading-2" toc-heading-level="h2" toc-type="heading">
-<pre>胁下硬满，不大便而呕，舌上白胎者，属少阳，可与小柴胡汤。上焦得通，津液得下，胃气因和，身灿然汗出而解也</pre>
-</div>
-<div caption="伤寒、中风，有柴胡证，但见一证便是，不必悉具" list="" role="sliced-html" tags="少阳病纲领" title="少阳病纲领-heading-3" toc-heading-level="h2" toc-type="heading">
-<pre>伤寒、中风，有柴胡证，但见一证便是，不必悉具</pre>
-</div>
-<div caption="服柴胡汤已，渴者，属阳明，以法治之" list="" role="sliced-html" tags="少阳病纲领" title="少阳病纲领-heading-4" toc-heading-level="h2" toc-type="heading">
-<pre>服柴胡汤已，渴者，属阳明，以法治之</pre>
-</div>
-<div caption="伤寒呕多，虽有阳明症，不可攻之" list="" role="sliced-html" tags="少阳病纲领" title="少阳病纲领-heading-5" toc-heading-level="h2" toc-type="heading">
-<pre>伤寒呕多，虽有阳明症，不可攻之</pre>
-</div>
-<div caption="伤寒脉弦细，头疼发热者，属少阳，少阳不可发汗，发汗则谵语，此属胃，胃和则愈，胃不和烦而躁" created="20180721073306797" list="" modified="20180721074423000" role="sliced-html" tags="少阳病纲领" title="少阳病纲领-heading-6" toc-heading-level="h2" toc-type="heading" type="text/x-markdown">
-<pre>伤寒[脉弦细](#脉弦细)，头疼发热者，属少阳，少阳不可发汗，发汗则谵语，此属胃，胃和则愈，胃不和烦而躁
+<div created="20180522145022412" modified="20180717002421143" tags="少阳病 郭生白" title="少阳病纲领" type="text/x-markdown">
+<pre>## 少阳之为病，[口苦](#口苦)[咽干](#咽干)[目眩](#目眩)也
 
-**--胡希恕--**
+## 胁下硬满，不大便而呕，舌上白胎者，属少阳，可与小柴胡汤。上焦得通，津液得下，胃气因和，身灿然汗出而解也
 
-区别少阳和太阳病的头疼发热：
+## 伤寒、中风，有柴胡证，但见一证便是，不必悉具
 
-太阳病：头疼发热，脉浮紧
-少阳病：头疼发热，脉弦细
+## 服柴胡汤已，渴者，属阳明，以法治之
+
+## 伤寒呕多，虽有阳明症，不可攻之
+
+## 伤寒脉弦细，头疼发热者，属少阳，少阳不可发汗，发汗则谵语，此属胃，胃和则愈，胃不和烦而躁
+
+## 凡柴胡汤证而下之，柴胡证不罢者，复与柴胡汤，必蒸蒸而振，反发热汗出而解
+
+## 本太阳病不解，转入少阳者，干呕不能食，往来寒热，胁下硬满，尚未吐下，脉沉紧者，与小柴胡汤。若已吐下、发汗温针、谵语，柴胡证罢者，知犯何逆，以法治之
+
+## 少阳中风，两目无所闻，目赤，胸中满而烦者，不可吐下，吐下则悸而惊。
+
+郭生白：若吐下，救逆可柴胡加龙骨牡蛎汤
 </pre>
-</div>
-<div caption="凡柴胡汤证而下之，柴胡证不罢者，复与柴胡汤，必蒸蒸而振，反发热汗出而解" list="" role="sliced-html" tags="少阳病纲领" title="少阳病纲领-heading-7" toc-heading-level="h2" toc-type="heading">
-<pre>凡柴胡汤证而下之，柴胡证不罢者，复与柴胡汤，必蒸蒸而振，反发热汗出而解</pre>
-</div>
-<div caption="本太阳病不解，转入少阳者，干呕不能食，往来寒热，胁下硬满，尚未吐下，脉沉紧者，与小柴胡汤。若已吐下、发汗温针、谵语，柴胡证罢者，知犯何逆，以法治之" created="20180721075740640" list="" modified="20180721080246910" role="sliced-html" tags="胡希恕 少阳病纲领" title="少阳病纲领-heading-8" toc-heading-level="h2" toc-type="heading" type="text/x-markdown">
-<pre>## 原文
-
-本太阳病不解，转入少阳者，干呕不能食，往来寒热，胁下硬满，尚未吐下，脉沉紧者，与小柴胡汤。若已吐下、发汗温针、谵语，柴胡证罢者，知犯何逆，以法治之
-
-## 胡希恕解
-
-脉沉紧 - 里实，但此处仍不可吐下。WHY？可能是里还不够实，但怎么判断呢？不知道。。。这会不会应了郭生白的话，并没有”半表半里“一说？
-
-</pre>
-</div>
-<div caption="少阳中风，两目无所闻，目赤，胸中满而烦者，不可吐下，吐下则悸而惊。" created="20180721072339004" list="少阳病纲领-paragraph-1" modified="20180721074700501" role="sliced-html" tags="胡希恕 少阳病纲领" title="少阳病纲领-heading-9" toc-heading-level="h2" toc-type="heading">
-<pre>少阳中风，两耳无所闻，目赤，胸中满而烦者，不可吐下，吐下则悸而惊。
-
-
-''--胡希恕--''
-
-热甚热往上冲，致
-
-- 口苦咽干、耳热至聋、目赤
-
-- 胸胁苦满
-
-- 胸满则烦
-
-''不可吐下''是指：
-
-邪不在胃，肚子里没东西吃泻药，只会虚肠胃。
-</pre>
-</div>
-<div caption="郭生白：若吐下，救逆可柴胡加龙骨牡蛎汤" list="" role="sliced-html" tags="少阳病纲领-heading-9" title="少阳病纲领-paragraph-1" toc-type="paragraph">
-<pre>郭生白：若吐下，救逆可柴胡加龙骨牡蛎汤</pre>
 </div>
 <div created="20180717012118797" modified="20180717012118797" title="往来寒热">
 <pre></pre>
-</div>
-<div created="20180721073008397" modified="20180721073036849" tags="症状" title="心下悸" type="text/x-markdown">
-<pre>读胡希恕伤寒论讲座，P322
-
-&gt; 若虚了胃，有寒饮的话就会乘之，则心下悸而惊。
-
-&gt; - 气虚也悸。
-
-&gt; - 吐下伤气，气虚则悸
-
-&gt; - 吐下伤津液，不足以养心，也惊</pre>
 </div>
 <div created="20180715080406722" modified="20180715081043736" tags="症状" title="心下痞" type="text/x-markdown">
 <pre>##  心下满而按之软，用指头弹之有气体声。
@@ -11495,13 +11333,13 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 <div created="20180715044633166" modified="20180715044642179" tags="TableOfContents" title="本能系统论">
 <pre></pre>
 </div>
-<div created="20180715073549460" modified="20180715073838607" tags="中药" title="柴胡" type="text/x-markdown">
+<div created="20180715073549460" modified="20180716012749614" tags="中药" title="柴胡" type="text/x-markdown">
 <pre># 柴胡
 
 《本草经》
-&gt; 柴胡主心腹肠胃中[结气](#结气), 寒热邪气，推陈致新，久服轻身明目益精                            </pre>
+&gt; 柴胡主心腹肠胃中[结气](#结气)、寒热邪气，推陈致新，久服轻身明目益精                            </pre>
 </div>
-<div created="20180715074909433" modified="20180721074745934" tags="少阳病" title="柴胡汤证被下而柴胡证具" type="text/x-markdown">
+<div created="20180715074909433" modified="20180715081118471" tags="少阳病" title="柴胡汤证被下而柴胡证仍在" type="text/x-markdown">
 <pre>## 伤寒五六日，呕而发热者，柴胡汤证具而以他药下之，柴胡证仍在者，复与柴胡汤。此虽下之，不为逆，必蒸蒸而振（[战汗](#战汗))，却发热汗出而解。若心下满而硬疼者，此为[结胸](#结胸)也，[大陷胸汤](#大陷胸汤)主之。但满而不痛者此为[痞](#心下痞)，柴胡不中与之，宜[半夏泻心汤](#半夏泻心汤)。</pre>
 </div>
 <div created="20180714075906936" list="" modified="20180714081045495" tags="栝娄根 栝娄 郭生白 中药 胸中烦 胸中有热 止渴" title="栝娄" type="text/x-markdown">
@@ -11512,18 +11350,6 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 # 栝娄根
 
 止渴 （小柴胡汤中，若渴，去半夏加人参，加栝娄根）</pre>
-</div>
-<div created="20180721083648231" modified="20180721084332967" tags="辩证" title="桂枝汤 vs 麻黄汤" type="text/x-markdown">
-<pre>## 桂枝汤
-
-出汗，但由于精气不足以去邪，虽出汗了，但是邪气也入内了。
-桂枝汤本质不是帮助机体出汗，因为服药前已有出汗症状。桂枝是要加强机体正气的。
-
-## 麻黄汤
-
-汗出不来，”阳气重故也“，正气足，体液大量输送体表，导致高烧，头痛的厉害，但是就是出不来汗。【为什么？郭生白解 - 有的人皮肤组织紧实】。麻黄汤帮助汗出，汗出而热解。
-
-麻黄汤证多数是阳气足的人具。</pre>
 </div>
 <div created="20180714072334321" modified="20180715044733112" tags="本能系统论 郭生白 感冒" title="流行性病毒感冒" type="text/x-markdown">
 <pre>## 症状
@@ -11546,7 +11372,7 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 <div created="20180715075949565" modified="20180715080050540" tags="TableOfContents" title="症状">
 <pre>&lt;&lt;list-links &quot;[tag[症状]sort[title]]&quot;&gt;&gt;</pre>
 </div>
-<div created="20180717002431453" modified="20180721070912756" tags="症状" title="目眩" type="text/x-markdown">
+<div created="20180717002431453" modified="20180717003758974" tags="症状" title="目眩" type="text/x-markdown">
 <pre>灵枢经：
 &gt; **上虚则眩**
 
@@ -11556,8 +11382,6 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 
 **原因**：
 - 可能与[脉弦细](#脉弦细)有关。李时珍曰：弦细[拘急](#拘急)。眼球脉络膜血管收缩而致营养输送减少，或对分散光线的吸收不利所致。
-
-**胡希恕**：热往上亢
 
 </pre>
 </div>
@@ -11600,31 +11424,13 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 
 当[交感神经](#交感神经)居于优势，可使腹腔内脏（如肝脏）的小动脉和毛细血管收缩，因而影响脾胃胰肠等静脉血从门静脉入肝，导致胁满。</pre>
 </div>
-<div created="20180717002929613" modified="20180721074141408" tags="症状 脉" title="脉弦细" type="text/x-markdown">
+<div created="20180717002929613" modified="20180717003259297" tags="症状 脉" title="脉弦细" type="text/x-markdown">
 <pre>少阳病的典型脉象
 
 弦细：血管收缩的表现
 
-**李时珍**：
-&gt; 弦细[拘急](拘急)
-
-**胡希恕**：
-
-弦分几种：
-
-- 浮弦：与浮紧类似，表实
-
-- 沉弦：沉为在里，如少腹急痛脉也沉弦
-
-- 弦但不浮不沉：少阳脉
-
-细：
-
-- 气虚血少的脉，津液虚
-
-少阳脉为什么细？
-
-因为血气都往里退了，体液不在表了，所以在表的脉细</pre>
+李时珍：
+&gt; 弦细[拘急](拘急)</pre>
 </div>
 <div created="20180714072027829" modified="20180715044847041" tags="中药" title="芍药" type="text/x-markdown">
 <pre># 性
@@ -11634,26 +11440,6 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 酸甘化阴：
 
 苦以制辛：</pre>
-</div>
-<div created="20180721082100225" modified="20180721083608382" tags="胡希恕 症状" title="表证" type="text/x-markdown">
-<pre>## 解释
-人利用水谷之气与外来的邪气在体表的抗拒，争斗。
-
-内经 评热病论 - 
-
-&gt; 人之所以汗出者，皆生于谷，谷生于精。今邪气交争于骨肉，而得汗者，阴阳交。
-
-## 表证的症候
-
-**脉浮** - 脉中充血，指体液大量向体表来，打算出汗。
-
-**头项强痛** - 头项充血厉害
-
-**恶寒** - 体液充斥体表，体表温度升高，体表与外边空气的温差比以往变大，感觉到寒冷，是一种意象。
-
-这全是人体打算通过出汗来祛除邪气，但是由于某种原因（邪过盛或正过虚）导致不得汗出，所以出现这些症状。
-
-说明什么？如郭生白所说，这是人体的本能（欲出汗去邪），中医应顺应人体本能，不能发汗？那我帮你来发汗。而不是西医那种对抗理念（病邪来了？好，我打死你，才不管人体本能呢）</pre>
 </div>
 <div created="20180714072440495" modified="20180715044752984" tags="伤寒论 本能系统论 郭生白" title="解肌法" type="text/x-markdown">
 <pre>## 脉浮
@@ -11684,20 +11470,6 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 
 ## 症状
 手足怕冷，消渴</pre>
-</div>
-<div created="20180721085808090" modified="20180721090340020" tags="辩证 胡希恕" title="阴阳" type="text/x-markdown">
-<pre>## 胡希恕解
-
-古人的阴阳即矛盾的两个方面：太过、不及
-
-- 太过为阳
-
-- 不及为阴
-
-有病就是人体机能的改变，要么太过，要么不及，否则就是没病。
-
-- 太过，机体在症候上表现为积极：兴奋 热...
-- 不及，机体在症候上表现为消极：倦怠 冷...</pre>
 </div>
 <div created="20180522040936188" modified="20180715044137969" tags="原来历史可以这样学 林欣浩 历史 文物" title="青铜器" type="text/x-markdown">
 <pre>## 历史阶段
